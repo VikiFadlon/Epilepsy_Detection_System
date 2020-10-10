@@ -1,0 +1,840 @@
+Results:
+ Patient:chb01 
+ Window size:4096 
+ Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 98.62 Precision: 100.00 Recall: 71.43
+ KNN:
+  Accuracy: 97.24 Precision: 100.00 Recall: 42.86
+ LDR:
+  Accuracy: 97.93 Precision: 83.33 Recall: 71.43
+
+Results:
+ Patient:chb01 
+ Window size:4096 
+ Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, FT10-T8, 
+ SVM:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+ KNN:
+  Accuracy: 99.31 Precision: 100.00 Recall: 85.71
+ LDR:
+  Accuracy: 99.31 Precision: 100.00 Recall: 85.71
+
+Results:
+ Patient:chb01 
+ Window size:4096 
+ Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, FT10-T8, 
+ SVM:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+ KNN:
+  Accuracy: 99.31 Precision: 100.00 Recall: 85.71
+ LDR:
+  Accuracy: 99.31 Precision: 100.00 Recall: 85.71
+
+Results:
+ Patient:chb03 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+
+ Num of Noise channels: 10, 
+
+ Without Noise channels:, F7-T7, FP1-F3, C3-P3, P3-O1, FP2-F4, C4-P4, P4-O2, FP2-F8, F8-T8, FZ-CZ, CZ-PZ, 
+ SVM:
+  Accuracy: 98.67 Precision: 50.00 Recall: 100.00
+ KNN:
+  Accuracy: 98.67 Precision: NaN Recall: 0.00
+ LDR:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+
+Results:
+ Patient:chb03 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+
+ Num of Noise channels: 10, 
+
+ Without Noise channels:, F7-T7, FP1-F3, C3-P3, P3-O1, FP2-F4, C4-P4, P4-O2, FP2-F8, F8-T8, FZ-CZ, CZ-PZ, 
+ SVM:
+  Accuracy: 98.67 Precision: 50.00 Recall: 100.00
+ KNN:
+  Accuracy: 98.67 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+
+Results:
+ Patient:chb01 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+
+ Num of Noise channels: 2 
+
+ Without Noise channels:, FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, FT10-T8, 
+ SVM:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+ KNN:
+  Accuracy: 99.31 Precision: 100.00 Recall: 85.71
+ LDR:
+  Accuracy: 99.31 Precision: 100.00 Recall: 85.71
+
+Results:
+ Patient:chb05 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+
+ Num of Noise channels: 3 
+
+ Without Noise channels:, FP1-F7, F7-T7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, F8-T8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ SVM:
+  Accuracy: 99.56 Precision: 100.00 Recall: 85.71
+ KNN:
+  Accuracy: 99.56 Precision: 100.00 Recall: 85.71
+ LDR:
+  Accuracy: 99.11 Precision: 100.00 Recall: 71.43
+
+Results:
+ Patient:chb08 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+
+ Num of Noise channels: 13 
+
+ Without Noise channels:, F7-T7, P7-O1, P3-O1, P4-O2, F8-T8, P8-O2, CZ-PZ, T7-FT9, 
+ SVM:
+  Accuracy: 95.56 Precision: 73.33 Recall: 64.71
+ KNN:
+  Accuracy: 96.89 Precision: 100.00 Recall: 58.82
+ LDR:
+  Accuracy: 96.00 Precision: 100.00 Recall: 47.06
+
+Results:
+ Patient:chb19 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+
+ Num of Noise channels: 3 
+
+ Without Noise channels:, FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, F8-T8, T8-P8, FZ-CZ, CZ-PZ, T7-FT9, FT10-T8, 
+ SVM:
+  Accuracy: 99.52 Precision: 100.00 Recall: 80.00
+ KNN:
+  Accuracy: 98.56 Precision: 100.00 Recall: 40.00
+ LDR:
+  Accuracy: 98.56 Precision: 75.00 Recall: 60.00
+
+Results:
+ Patient:chb20 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+
+ Num of Noise channels: 9 
+
+ Without Noise channels:, F7-T7, P7-O1, F3-C3, C3-P3, P3-O1, F4-C4, C4-P4, P4-O2, F8-T8, P8-O2, FZ-CZ, CZ-PZ, 
+ SVM:
+  Accuracy: 99.26 Precision: 100.00 Recall: 50.00
+ KNN:
+  Accuracy: 98.52 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 99.26 Precision: 100.00 Recall: 50.00
+
+Results:
+ Patient:chb24 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+
+ Num of Noise channels: 7 
+
+ Without Noise channels:, F7-T7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, F8-T8, P8-O2, FZ-CZ, CZ-PZ, 
+ SVM:
+  Accuracy: 98.22 Precision: 0.00 Recall: 0.00
+ KNN:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+ LDR:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+
+Results: 20-Sep-2020 14:30:33 
+ Patient:chb01 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+
+ Num of Noise channels: 2 
+
+ Without Noise channels:, FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, FT10-T8, 
+ SVM:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+ KNN:
+  Accuracy: 99.31 Precision: 100.00 Recall: 85.71
+ LDR:
+  Accuracy: 99.31 Precision: 100.00 Recall: 85.71
+
+Results: 20-Sep-2020 14:49:39 
+ File Name : results/chb01_4096_2097145 
+ Patient:chb01 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 2 
+ Without Noise channels:, FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, FT10-T8, 
+ SVM:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+ KNN:
+  Accuracy: 99.31 Precision: 100.00 Recall: 85.71
+ LDR:
+  Accuracy: 99.31 Precision: 100.00 Recall: 85.71
+
+Results: 20-Sep-2020 14:56:24 
+ File Name : results/chb03_4096_620440 
+ Patient:chb03 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 10 
+ Without Noise channels:, F7-T7, FP1-F3, C3-P3, P3-O1, FP2-F4, C4-P4, P4-O2, FP2-F8, F8-T8, FZ-CZ, CZ-PZ, 
+ SVM:
+  Accuracy: 98.67 Precision: 50.00 Recall: 100.00
+ KNN:
+  Accuracy: 98.67 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+
+Results: 20-Sep-2020 15:15:30 
+ File Name : results/chb05_4096_1834687 
+ Patient:chb05 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 3 
+ Without Noise channels:, FP1-F7, F7-T7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, F8-T8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ SVM:
+  Accuracy: 99.56 Precision: 100.00 Recall: 85.71
+ KNN:
+  Accuracy: 99.56 Precision: 100.00 Recall: 85.71
+ LDR:
+  Accuracy: 99.11 Precision: 100.00 Recall: 71.43
+
+Results: 20-Sep-2020 15:22:20 
+ File Name : results/chb08_4096_664236 
+ Patient:chb08 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 13 
+ Without Noise channels:, F7-T7, P7-O1, P3-O1, P4-O2, F8-T8, P8-O2, CZ-PZ, T7-FT9, 
+ SVM:
+  Accuracy: 95.56 Precision: 73.33 Recall: 64.71
+ KNN:
+  Accuracy: 96.89 Precision: 100.00 Recall: 58.82
+ LDR:
+  Accuracy: 96.00 Precision: 100.00 Recall: 47.06
+
+Results: 20-Sep-2020 15:23:32 
+ File Name : results/chb19_4096_2096861 
+ Patient:chb19 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 3 
+ Without Noise channels:, FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, F8-T8, T8-P8, FZ-CZ, CZ-PZ, T7-FT9, FT10-T8, 
+ SVM:
+  Accuracy: 99.52 Precision: 100.00 Recall: 80.00
+ KNN:
+  Accuracy: 98.56 Precision: 100.00 Recall: 40.00
+ LDR:
+  Accuracy: 98.56 Precision: 75.00 Recall: 60.00
+
+Results: 20-Sep-2020 15:34:45 
+ File Name : results/chb20_4096_716472 
+ Patient:chb20 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 9 
+ Without Noise channels:, F7-T7, P7-O1, F3-C3, C3-P3, P3-O1, F4-C4, C4-P4, P4-O2, F8-T8, P8-O2, FZ-CZ, CZ-PZ, 
+ SVM:
+  Accuracy: 99.26 Precision: 100.00 Recall: 50.00
+ KNN:
+  Accuracy: 98.52 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 99.26 Precision: 100.00 Recall: 50.00
+
+Results: 20-Sep-2020 15:52:00 
+ File Name : results/chb24_4096_786104 
+ Patient:chb24 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 7 
+ Without Noise channels:, F7-T7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, F8-T8, P8-O2, FZ-CZ, CZ-PZ, 
+ SVM:
+  Accuracy: 98.22 Precision: 0.00 Recall: 0.00
+ KNN:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+ LDR:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+
+Results: 20-Sep-2020 15:57:32 
+ File Name : results/chb01_4096_15 
+ Patient:chb01 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 98.62 Precision: 100.00 Recall: 71.43
+ KNN:
+  Accuracy: 98.62 Precision: 100.00 Recall: 71.43
+ LDR:
+  Accuracy: 97.93 Precision: 83.33 Recall: 71.43
+
+Results: 20-Sep-2020 16:14:48 
+ File Name : results/chb03_4096_15 
+ Patient:chb03 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 98.22 Precision: 33.33 Recall: 33.33
+ KNN:
+  Accuracy: 98.67 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+
+Results: 20-Sep-2020 17:11:21 
+ File Name : results/chb05_4096_15 
+ Patient:chb05 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 99.56 Precision: 100.00 Recall: 85.71
+ KNN:
+  Accuracy: 99.11 Precision: 100.00 Recall: 71.43
+ LDR:
+  Accuracy: 99.11 Precision: 100.00 Recall: 71.43
+
+Results: 20-Sep-2020 18:00:10 
+ File Name : results/chb08_4096_15 
+ Patient:chb08 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 93.33 Precision: 57.14 Recall: 47.06
+ KNN:
+  Accuracy: 94.22 Precision: 83.33 Recall: 29.41
+ LDR:
+  Accuracy: 95.11 Precision: 100.00 Recall: 35.29
+
+Results: 20-Sep-2020 19:02:34 
+ File Name : results/chb19_4096_15 
+ Patient:chb19 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 99.04 Precision: 100.00 Recall: 60.00
+ KNN:
+  Accuracy: 99.04 Precision: 100.00 Recall: 60.00
+ LDR:
+  Accuracy: 99.04 Precision: 80.00 Recall: 80.00
+
+Results: 20-Sep-2020 19:40:10 
+ File Name : results/chb20_4096_15 
+ Patient:chb20 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 99.26 Precision: 100.00 Recall: 50.00
+ KNN:
+  Accuracy: 98.52 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 99.26 Precision: 100.00 Recall: 50.00
+
+Results: 20-Sep-2020 20:22:01 
+ File Name : results/chb24_4096_15 
+ Patient:chb24 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 98.22 Precision: 0.00 Recall: 0.00
+ KNN:
+  Accuracy: 100.00 Precision: 100.00 Recall: 100.00
+ LDR:
+  Accuracy: 99.56 Precision: 100.00 Recall: 75.00
+
+Results: 23-Sep-2020 19:03:41 
+ File Name : results/chb02_4096_2095013 
+ Patient:chb02 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 5 
+ Without Noise channels:, FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, C4-P4, P4-O2, FP2-F8, F8-T8, P8-O2, T7-FT9, FT10-T8, 
+ SVM:
+  Accuracy: 100.00 Precision: 0.00 Recall: 0.00
+ KNN:
+  Accuracy: 100.00 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 100.00 Precision: 0.00 Recall: 0.00
+
+Results: 25-Sep-2020 01:41:53 
+ File Name : results/chb10_4096_1834938 
+ Patient:chb10 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 4 
+ Without Noise channels:, FP1-F7, F7-T7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, P8-O2, FZ-CZ, CZ-PZ, FT9-FT10, 
+ SVM:
+  Accuracy: 99.33 Precision: 100.00 Recall: 25.00
+ KNN:
+  Accuracy: 99.11 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 99.11 Precision: 0.00 Recall: 0.00
+
+Results: 25-Sep-2020 08:29:00 
+ File Name : results/chb10_4096_15 
+ Patient:chb10 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 99.33 Precision: 100.00 Recall: 25.00
+ KNN:
+  Accuracy: 99.11 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 99.11 Precision: 0.00 Recall: 0.00
+
+Results: 25-Sep-2020 09:11:13 
+ File Name : results/chb22_4096_532612 
+ Patient:chb22 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 17 
+ Without Noise channels:, F7-T7, P3-O1, F8-T8, T7-FT9, 
+ SVM:
+  Accuracy: 99.11 Precision: 75.00 Recall: 75.00
+ KNN:
+  Accuracy: 99.11 Precision: 100.00 Recall: 50.00
+ LDR:
+  Accuracy: 99.11 Precision: 75.00 Recall: 75.00
+
+Results: 25-Sep-2020 09:21:59 
+ File Name : results/chb22_4096_15 
+ Patient:chb22 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 99.11 Precision: 75.00 Recall: 75.00
+ KNN:
+  Accuracy: 98.22 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 99.11 Precision: 75.00 Recall: 75.00
+
+Results: 25-Sep-2020 23:33:42 
+ File Name : results/chb23_4096_1778312 
+ Patient:chb23 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 13 
+ Without Noise channels:, FP1-F7, F7-T7, P7-O1, FP1-F3, P3-O1, P4-O2, F8-T8, CZ-PZ, 
+ SVM:
+  Accuracy: 98.78 Precision: 100.00 Recall: 21.43
+ KNN:
+  Accuracy: 98.45 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 99.33 Precision: 100.00 Recall: 57.14
+
+Results: 26-Sep-2020 00:14:17 
+ File Name : results/chb23_4096_15 
+ Patient:chb23 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 98.56 Precision: 100.00 Recall: 7.14
+ KNN:
+  Accuracy: 98.56 Precision: 100.00 Recall: 7.14
+ LDR:
+  Accuracy: 98.89 Precision: 83.33 Recall: 35.71
+
+Results: 26-Sep-2020 06:00:13 
+ File Name : results/chb04_4096_2097087 
+ Patient:chb04 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 1 
+ Without Noise channels:, FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ SVM:
+  Accuracy: 98.45 Precision: 0.00 Recall: 0.00
+ KNN:
+  Accuracy: 98.45 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 98.56 Precision: 60.00 Recall: 21.43
+
+Results: 26-Sep-2020 06:10:19 
+ File Name : results/chb04_4096_15 
+ Patient:chb04 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 98.45 Precision: 0.00 Recall: 0.00
+ KNN:
+  Accuracy: 98.56 Precision: 100.00 Recall: 7.14
+ LDR:
+  Accuracy: 98.56 Precision: 100.00 Recall: 7.14
+
+Results: 26-Sep-2020 07:07:48 
+ File Name : results/chb07_4096_524972 
+ Patient:chb07 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 15 
+ Without Noise channels:, F7-T7, P4-O2, F8-T8, P8-O2, CZ-PZ, T7-FT9, 
+ SVM:
+  Accuracy: 99.56 Precision: 100.00 Recall: 50.00
+ KNN:
+  Accuracy: 99.22 Precision: 100.00 Recall: 12.50
+ LDR:
+  Accuracy: 99.44 Precision: 100.00 Recall: 37.50
+
+Results: 26-Sep-2020 07:32:25 
+ File Name : results/chb07_4096_15 
+ Patient:chb07 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 99.67 Precision: 100.00 Recall: 62.50
+ KNN:
+  Accuracy: 99.22 Precision: 100.00 Recall: 12.50
+ LDR:
+  Accuracy: 99.56 Precision: 100.00 Recall: 50.00
+
+Results: 26-Sep-2020 19:48:15 
+ File Name : results/chb14_4096_1966013 
+ Patient:chb14 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 3 
+ Without Noise channels:, FP1-F7, F7-T7, T7-P7, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT10-T8, 
+ SVM:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+ KNN:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+
+Results: 26-Sep-2020 19:49:36 
+ File Name : results/chb14_4096_15 
+ Patient:chb14 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+ KNN:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+
+Results: 26-Sep-2020 21:06:42 
+ File Name : results/chb14_4096_1966013 
+ Patient:chb14 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 3 
+ Without Noise channels:, FP1-F7, F7-T7, T7-P7, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT10-T8, 
+ SVM:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+ KNN:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+
+Results: 26-Sep-2020 21:07:49 
+ File Name : results/chb14_4096_15 
+ Patient:chb14 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+ KNN:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 99.56 Precision: 0.00 Recall: 0.00
+
+Results: 27-Sep-2020 12:34:08 
+ File Name : results/chb17_4096_1835001 
+ Patient:chb17 
+ Window size:4096 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 3 
+ Without Noise channels:, FP1-F7, F7-T7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, FT10-T8, 
+ SVM:
+  Accuracy: 98.67 Precision: 62.50 Recall: 100.00
+ KNN:
+  Accuracy: 97.79 Precision: 50.00 Recall: 20.00
+ LDR:
+  Accuracy: 98.23 Precision: 55.56 Recall: 100.00
+
+Results: 27-Sep-2020 12:34:44 
+ File Name : results/chb17_4096_15 
+ Patient:chb17 
+ Window size:4096 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 98.23 Precision: 100.00 Recall: 20.00
+ KNN:
+  Accuracy: 97.79 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 97.35 Precision: 0.00 Recall: 0.00
+
+Results: 29-Sep-2020 02:52:16 
+ File Name : results/chb01_256_2097145 
+ Patient:chb01 
+ Window size:256 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 2 
+ Without Noise channels:, FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, FT10-T8, 
+ SVM:
+  Accuracy: 88.17 Precision: 3.23 Recall: 5.94
+ KNN:
+  Accuracy: 97.16 Precision: 100.00 Recall: 34.65
+ LDR:
+  Accuracy: 99.31 Precision: 93.81 Recall: 90.10
+
+Results: 29-Sep-2020 03:26:26 
+ File Name : results/chb01_256_15 
+ Patient:chb01 
+ Window size:256 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 96.22 Precision: 93.33 Recall: 13.86
+ KNN:
+  Accuracy: 96.90 Precision: 100.00 Recall: 28.71
+ LDR:
+  Accuracy: 98.80 Precision: 95.06 Recall: 76.24
+
+Results: 29-Sep-2020 04:58:45 
+ File Name : results/chb03_256_620440 
+ Patient:chb03 
+ Window size:256 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 10 
+ Without Noise channels:, F7-T7, FP1-F3, C3-P3, P3-O1, FP2-F4, C4-P4, P4-O2, FP2-F8, F8-T8, FZ-CZ, CZ-PZ, 
+ SVM:
+  Accuracy: 95.56 Precision: 4.27 Recall: 9.43
+ KNN:
+  Accuracy: 98.53 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 98.86 Precision: 83.33 Recall: 28.30
+
+Results: 29-Sep-2020 05:33:36 
+ File Name : results/chb03_256_15 
+ Patient:chb03 
+ Window size:256 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 97.17 Precision: 7.02 Recall: 7.55
+ KNN:
+  Accuracy: 98.53 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 98.64 Precision: 83.33 Recall: 9.43
+
+Results: 29-Sep-2020 07:28:02 
+ File Name : results/chb05_256_1834687 
+ Patient:chb05 
+ Window size:256 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 3 
+ Without Noise channels:, FP1-F7, F7-T7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, F8-T8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ SVM:
+  Accuracy: 97.89 Precision: 93.62 Recall: 37.61
+ KNN:
+  Accuracy: 98.72 Precision: 100.00 Recall: 60.68
+ LDR:
+  Accuracy: 98.72 Precision: 100.00 Recall: 60.68
+
+Results: 29-Sep-2020 07:51:34 
+ File Name : results/chb05_256_15 
+ Patient:chb05 
+ Window size:256 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 97.47 Precision: 74.07 Recall: 34.19
+ KNN:
+  Accuracy: 98.33 Precision: 100.00 Recall: 48.72
+ LDR:
+  Accuracy: 98.56 Precision: 97.10 Recall: 57.26
+
+Results: 29-Sep-2020 08:32:58 
+ File Name : results/chb08_256_664236 
+ Patient:chb08 
+ Window size:256 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 13 
+ Without Noise channels:, F7-T7, P7-O1, P3-O1, P4-O2, F8-T8, P8-O2, CZ-PZ, T7-FT9, 
+ SVM:
+  Accuracy: 87.44 Precision: 4.37 Recall: 3.41
+ KNN:
+  Accuracy: 93.36 Precision: 85.71 Recall: 11.36
+ LDR:
+  Accuracy: 93.94 Precision: 92.59 Recall: 18.94
+
+Results: 29-Sep-2020 08:58:51 
+ File Name : results/chb08_256_15 
+ Patient:chb08 
+ Window size:256 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 81.22 Precision: 13.35 Recall: 28.41
+ KNN:
+  Accuracy: 93.03 Precision: 76.00 Recall: 7.20
+ LDR:
+  Accuracy: 93.06 Precision: 88.89 Recall: 6.06
+
+Results: 29-Sep-2020 09:52:43 
+ File Name : results/chb19_256_2096861 
+ Patient:chb19 
+ Window size:256 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 3 
+ Without Noise channels:, FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, F8-T8, T8-P8, FZ-CZ, CZ-PZ, T7-FT9, FT10-T8, 
+ SVM:
+  Accuracy: 97.51 Precision: 25.00 Recall: 1.23
+ KNN:
+  Accuracy: 98.83 Precision: 100.00 Recall: 51.85
+ LDR:
+  Accuracy: 99.01 Precision: 100.00 Recall: 59.26
+
+Results: 29-Sep-2020 10:05:13 
+ File Name : results/chb19_256_15 
+ Patient:chb19 
+ Window size:256 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 9.81 Precision: 1.72 Recall: 64.20
+ KNN:
+  Accuracy: 98.68 Precision: 100.00 Recall: 45.68
+ LDR:
+  Accuracy: 98.89 Precision: 89.29 Recall: 61.73
+
+Results: 29-Sep-2020 11:34:31 
+ File Name : results/chb20_256_716472 
+ Patient:chb20 
+ Window size:256 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 9 
+ Without Noise channels:, F7-T7, P7-O1, F3-C3, C3-P3, P3-O1, F4-C4, C4-P4, P4-O2, F8-T8, P8-O2, FZ-CZ, CZ-PZ, 
+ SVM:
+  Accuracy: 98.20 Precision: 50.00 Recall: 23.08
+ KNN:
+  Accuracy: 98.20 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 98.71 Precision: 78.95 Recall: 38.46
+
+Results: 29-Sep-2020 12:06:07 
+ File Name : results/chb20_256_15 
+ Patient:chb20 
+ Window size:256 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 98.34 Precision: 100.00 Recall: 7.69
+ KNN:
+  Accuracy: 98.20 Precision: 0.00 Recall: 0.00
+ LDR:
+  Accuracy: 98.38 Precision: 75.00 Recall: 15.38
+
+Results: 29-Sep-2020 15:02:04 
+ File Name : results/chb24_256_786104 
+ Patient:chb24 
+ Window size:256 
+ Requested Channels:FP1-F7, F7-T7, T7-P7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, FP2-F8, F8-T8, T8-P8, P8-O2, FZ-CZ, CZ-PZ, T7-FT9, FT9-FT10, FT10-T8, 
+ Num of Noise channels: 7 
+ Without Noise channels:, F7-T7, P7-O1, FP1-F3, F3-C3, C3-P3, P3-O1, FP2-F4, F4-C4, C4-P4, P4-O2, F8-T8, P8-O2, FZ-CZ, CZ-PZ, 
+ SVM:
+  Accuracy: 95.39 Precision: 13.97 Recall: 27.94
+ KNN:
+  Accuracy: 98.31 Precision: 100.00 Recall: 10.29
+ LDR:
+  Accuracy: 99.56 Precision: 96.43 Recall: 79.41
+
+Results: 30-Sep-2020 02:16:35 
+ File Name : results/chb24_256_15 
+ Patient:chb24 
+ Window size:256 
+ Requested Channels:FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP2-F8, F7-T7, FP2-F4, F8-T8, 
+ SVM:
+  Accuracy: 82.19 Precision: 2.80 Recall: 25.00
+ KNN:
+  Accuracy: 98.50 Precision: 100.00 Recall: 20.59
+ LDR:
+  Accuracy: 98.92 Precision: 100.00 Recall: 42.65
+
+Results: 09-Oct-2020 11:19:15 
+ File Name : results/chb01_4096_1048832 
+ Patient:chb01 
+ Window size:4096 
+ Requested Channels:FP1-F7, FP2-F8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP1-F7, FP2-F8, 
+ SVM:
+  Accuracy: 96.55 Precision: 75.00 Recall: 42.86
+ KNN:
+  Accuracy: 97.24 Precision: 100.00 Recall: 42.86
+ LDR:
+  Accuracy: 95.17 Precision: 50.00 Recall: 57.14
+
+Results: 09-Oct-2020 11:25:02 
+ File Name : results/chb01_4096_1048832 
+ Patient:chb01 
+ Window size:4096 
+ Requested Channels:FP1-F7, FP2-F8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP1-F7, FP2-F8, 
+ SVM:
+  Accuracy: 96.55 Precision: 75.00 Recall: 42.86
+ KNN:
+  Accuracy: 97.24 Precision: 100.00 Recall: 42.86
+ LDR:
+  Accuracy: 95.17 Precision: 50.00 Recall: 57.14
+
+Results: 09-Oct-2020 12:05:50 
+ File Name : results/chb05_2464_1048832 
+ Patient:chb05 
+ Window size:2464 
+ Requested Channels:FP1-F7, FP2-F8, 
+ Num of Noise channels: 0 
+ Without Noise channels:, FP1-F7, FP2-F8, 
+ SVM:
+  Accuracy: 87.17 Precision: 14.00 Recall: 58.33
+ KNN:
+  Accuracy: 98.13 Precision: 100.00 Recall: 41.67
+ LDR:
+  Accuracy: 98.66 Precision: 100.00 Recall: 58.33
+
