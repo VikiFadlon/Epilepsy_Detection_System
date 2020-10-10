@@ -1,4 +1,4 @@
-# Epilepsy-seizure-detection-system
+# Epilepsy-Detection-system
 
 create system that detect epilepsy seizures in EEG signals using matlab.
 
