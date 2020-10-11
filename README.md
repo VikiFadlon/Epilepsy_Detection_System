@@ -37,15 +37,19 @@ This project use [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/ch
 We developed 2 applications for further research
 
 ### [EEG_Profile_Creator](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/EEG_Profile_Creator.mlapp) ###
-Run the project algorithm with user selection parameters.
+Run the project algorithm with user selection parameters:
 * Patient - Select patient from [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/chb01/#files-panel).
 * Channels - Select specipic channels for the algorithm.
 * Window size - Select the window size for the algorithm.
 * apply filter noisy channles - Apply filter noisy channles algorithm on the selected channels.
 The application save the algorithm results in [/results folder](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/results).
 
-### [EEG_Profile_Creator](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/EEG_Profile_Creator.mlapp) ###
-Run the project algorithm with user selection parameters.
+### [EEG Result Viewer](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/EEG_Profile_Creator.mlapp) ###
+load automatic after [EEG Profile Creator app](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/EEG_Profile_Creator.mlapp). Present the result file with the following features:
+* Plot the Accuracy, Precision and Recall for SVM, KNN and LDA classifiers.
+* Plot in time functions the True seizures values and the classifier results.
+* Browse to change the current result file.
+* Extract the result file content to matlab workspace.
 
 
 
