@@ -31,23 +31,21 @@ This project use [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/ch
 * [Tools](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/tools) - Contain thrid party codes.
 * [train_datasets](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/train_datasets) - Contain saved datasets from [extract_dataset.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/extract_dataset.m), if file exists the algorithm skip the [generate_dataset.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/generate_dataset.m) function.
 * [test_datasets](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/test_datasets) - Contain saved datasets from [extract_dataset_test.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/extract_dataset_test.m), if file exists the algorithm skip the [generate_dataset_test.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/generate_dataset_test.m) function.
-* [result](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/results) - Contain saved result files from [plot_result.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/plot_result.m), each file name contain running parameters.
+* [results](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/results) - Contain saved result files from [plot_result.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/plot_result.m), each file name contain running parameters.
 
 ## Applications ##
+We developed 2 applications for further research
+
 ### [EEG_Profile_Creator](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/EEG_Profile_Creator.mlapp) ###
+Run the project algorithm with user selection parameters.
+* Patient - Select patient from [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/chb01/#files-panel).
+* Channels - Select specipic channels for the algorithm.
+* Window size - Select the window size for the algorithm.
+* apply filter noisy channles - Apply filter noisy channles algorithm on the selected channels.
+The application save the algorithm results in [/results folder](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/results).
 
-    
+### [EEG_Profile_Creator](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/EEG_Profile_Creator.mlapp) ###
+Run the project algorithm with user selection parameters.
 
-the goal is develop system that use low number of channels and detect seizures in real time.
 
-link to article
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6147694/ 
 
-link to dataset
-https://physionet.org/content/chbmit/1.0.0/chb01/#files-panel
-
-download first dataset 
-wget -r -N -c -np https://physionet.org/files/chbmit/1.0.0/chb01/
-
-EEGLAB download link
-https://sccn.ucsd.edu/eeglab/downloadtoolbox.php
