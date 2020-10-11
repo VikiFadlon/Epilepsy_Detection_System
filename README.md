@@ -11,7 +11,7 @@ This project use [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/ch
 # what inside 
 ### Code ### 
 * [main.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/main.m) - Main file for the algorithm.
- * [chack_args.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/chack_args.m) - Chack arguments values.
+  * [chack_args.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/chack_args.m) - Chack arguments values.
  * [load_files.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/load_files.m) - Load files from CHB-MIT dataset.
   * [ReadEDF.m](https://www.mathworks.com/matlabcentral/fileexchange/38641-reading-and-saving-of-data-in-the-edf) - third party code.
   * [parse_summary.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/parse_summary.m) - Parse summary seizures file to locate seizures indexes.
