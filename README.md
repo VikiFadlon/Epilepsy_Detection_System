@@ -1,5 +1,5 @@
 # Epilepsy-Detection-system 
-This project is a Final project at B.s.c of electrical engineering course in HIT- by dr' Belberg Michal.
+This project is a Final project at B.s.c of electrical engineering course in HIT.
 
 # Project details
 This project describes an experiment about epilepsy detection system using EEG siganls with low channels count.
