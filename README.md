@@ -29,7 +29,8 @@ This project use [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/ch
 
 ## Folders ##
 * [Tools](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/tools) - Thrid party codes.
-* [test_datasets](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/test_datasets) - Save datasets from [extract_dataset.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/extract_dataset.m), if file exists the algorithm skip the [generate_dataset.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/generate_dataset.m) function.
+* [train_datasets](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/train_datasets) - Save datasets from [extract_dataset.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/extract_dataset.m), if file exists the algorithm skip the [generate_dataset.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/generate_dataset.m) function.
+* [test_datasets](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/test_datasets) - Save datasets from [extract_dataset_test.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/extract_dataset_test.m), if file exists the algorithm skip the [generate_dataset_test.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/generate_dataset_test.m) function.
 
     
 
