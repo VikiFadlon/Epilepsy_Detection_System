@@ -1,10 +1,19 @@
-# Epilepsy-Detection-system
+# Epilepsy-Detection-system 
 This project is a Final project at B.s.c of electrical engineering course in HIT- by dr' Belberg Michal.
+
 # Project details
 This project describes an experiment about epilepsy detection system using EEG siganls with low channels count.
-The system develop on entropy & energy features with machine learning classifiers SVM, KNN and LDA (the algorithm based on [article.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6147694/)
+The system develop on entropy & energy features with machine learning classifiers SVM, KNN and LDA (the algorithm based on [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6147694/))
+The operate with constant size continuous window over the time samples, for each window the algorithm extract entropy from the time domain and energy of constant frequencies boundaries at frequency domain. each window labeled for seizures activite for the classifiers.    
+figure
+This project use [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/chb01/#files-panel) for learning and testing the project results.
 
-create system that detect epilepsy seizures in EEG signals using matlab.
+# what inside 
+### Code ### 
+* [main.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/main.m) - Main file for the algorithm.
+  * [chack_args.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/chack_args.m) - Chack arguments values.
+  * [load_files.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/load_files.m) - Load files from CHB-MIT dataset.
+    * parse_summary.m
 
 the goal is develop system that use low number of channels and detect seizures in real time.
 
