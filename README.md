@@ -13,7 +13,7 @@ This project use [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/ch
 * [main.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/main.m) - Main file for the algorithm.
   * [chack_args.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/chack_args.m) - Chack arguments values.
   * [load_files.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/load_files.m) - Load files from CHB-MIT dataset.
-    * [ReadEDF.m](https://www.mathworks.com/matlabcentral/fileexchange/38641-reading-and-saving-of-data-in-the-edf) - third party code.
+    * [ReadEDF.m](https://www.mathworks.com/matlabcentral/fileexchange/38641-reading-and-saving-of-data-in-the-edf) - Third party code.
     * [parse_summary.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/parse_summary.m) - Parse summary seizures file to locate seizures indexes.
     * [order_content.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/order_content.m) - Order files content to global struct.
   * [split_EEG.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/split_EEG.m) - Split EEG struct to train tnd test.
@@ -28,6 +28,8 @@ This project use [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/ch
  * [plot_result.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/plot_result.m) - Save and plot results
 
 ## Folders ##
+* [Tools](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/tools) - Thrid party codes.
+* [test_datasets](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/test_datasets) - Save datasets from [extract_dataset.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/extract_dataset.m), if file exists the algorithm skip the [generate_dataset.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/generate_dataset.m) function.
 
     
 
