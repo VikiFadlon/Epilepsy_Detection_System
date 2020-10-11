@@ -13,7 +13,8 @@ This project use [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/ch
 * [main.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/main.m) - Main file for the algorithm.
   * [chack_args.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/chack_args.m) - Chack arguments values.
   * [load_files.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/load_files.m) - Load files from CHB-MIT dataset.
-    * parse_summary.m
+    * [parse_summary.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/parse_summary.m) - Parse summary seizures file to locate seizures indexes.
+    * [order_content.m](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/order_content.m) - Order files content to struct.
 
 the goal is develop system that use low number of channels and detect seizures in real time.
 
