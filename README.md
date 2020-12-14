@@ -6,7 +6,14 @@ This project describes an experiment about epilepsy detection system using EEG s
 The system develop on entropy & energy features with machine learning classifiers SVM, KNN and LDA (the algorithm based on [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6147694/))
 The operate with constant size continuous window over the time samples, for each window the algorithm extract entropy from the time domain and energy of constant frequencies boundaries at frequency domain. each window labeled for seizures activite for the classifiers.    
 
-![alt text](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/algorithm.PNG)
+# Training Algorithm
+![alt text](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/Training_Algorithm.png)
+
+# Testing Algorithm
+![alt text](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/Testing_Algorithm.png)
+
+# Feature Extraction
+![alt text](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/feature_extraction_algorithm.png)
 
 This project use [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/chb01/#files-panel) for learning and testing the project results.
 
