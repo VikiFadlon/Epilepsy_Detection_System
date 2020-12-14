@@ -10,10 +10,10 @@ The operate with constant size continuous window over the time samples, for each
 <img src="https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/Training_Algorithm.png" width="400"/>
 
 # Testing Algorithm
-![alt text](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/Testing_Algorithm.png)
+<img src="https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/Testing_Algorithm.png" width="400"/>
 
 # Feature Extraction
-![alt text](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/feature_extraction_algorithm.png)
+<img src="https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/feature_extraction_algorithm.png" width="400"/>
 
 This project use [CHB-MIT dataset](https://physionet.org/content/chbmit/1.0.0/chb01/#files-panel) for learning and testing the project results.
 
