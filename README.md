@@ -53,7 +53,7 @@ Run the project algorithm with user selection parameters:
 * apply filter noisy channles - Apply filter noisy channles algorithm on the selected channels.
 The application save the algorithm results in [/results folder](https://github.com/VikiFadlon/Epilepsy_Detection_System/tree/master/results).
 
-<img src="https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/EEG_Profile_Creator.png" width="400"/>
+<img src="https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/EEG_Profile_Creator.PNG" width="400"/>
 
 ### [EEG Result Viewer](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/EEG_Profile_Creator.mlapp) ###
 load automatic after [EEG Profile Creator app](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/EEG_Profile_Creator.mlapp). Present the result file with the following features:
@@ -62,6 +62,6 @@ load automatic after [EEG Profile Creator app](https://github.com/VikiFadlon/Epi
 * Browse to change the current result file.
 * Extract the result file content to matlab workspace.
 
-<img src="https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/EEG_Result_Viewer.png" width="400"/>
+<img src="https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/EEG_Result_Viewer.PNG" width="400"/>
 
 
