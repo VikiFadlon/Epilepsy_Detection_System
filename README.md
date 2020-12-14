@@ -7,8 +7,7 @@ The system develop on entropy & energy features with machine learning classifier
 The operate with constant size continuous window over the time samples, for each window the algorithm extract entropy from the time domain and energy of constant frequencies boundaries at frequency domain. each window labeled for seizures activite for the classifiers.    
 
 # Training Algorithm
-<img src="https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/Training_Algorithm.png" width="600"/>
-![alt text](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/Training_Algorithm.png width="200")
+<img src="https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/Training_Algorithm.png" width="400"/>
 
 # Testing Algorithm
 ![alt text](https://github.com/VikiFadlon/Epilepsy_Detection_System/blob/master/images/Testing_Algorithm.png)
