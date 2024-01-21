@@ -7,7 +7,7 @@ function [EEG] = load_files(patient, channels)
     path = filePath + '\' + patient;
     files = dir2(path);
     files_idx = 1;
-    seizures = parse_summary(path + '\' + patient + '-summary-new.txt');
+    seizures = parse_summary(path + '\' + patient + '-summary.txt');
     for i = 1:length(files)
         if contains(files(i).name,".seizures")
             file_name = erase(files(i).name,".seizures");
